@@ -1,0 +1,335 @@
+COMPILER
+- checks for error in our code
+- optimizes our code
+- converts HLL to LLL
+
+
+
+
+
+
+
+
+
+
+MEMORY UNITS
+1 byte = 8 bits
+1 KB = 1024 bytes
+1 MB = 1024 KB
+1 GB = 1024 MB
+1 TB = 1024 GB
+
+
+
+
+
+
+
+
+
+
+
+ASCII TABLE
+- gives decimal for characters
+- then that decimal is converted to binary
+
+
+
+
+
+
+
+
+
+
+FIRST PROGRAM
+
+------------------------------
+#include <iostream>
+int main()
+using namespace std;
+{
+    std::cout<<"Hello Chinu"<<endl;
+};
+------------------------------
+
+- using cout without including the iostream header file will throw an error
+- iostream is the header file
+- if we want to skip the std:: part then we need to use the using namespace std;
+
+
+
+
+
+
+
+
+
+
+WHY THE HEADER FILES ARE NOT INCLUDED IN THE HEADER
+
+
+
+
+
+
+
+
+
+
+ENDL and \n DO THE SAME WORK
+------------------------------------------------
+cout<<"Hello Chinu"<<endl<<"How are you?"<<endl;
+------------------------------------------------
+- we can use two endl in a single line
+- we can use two << in a single line
+
+
+
+
+
+
+
+
+
+<< IS CALLED THE INSERTION OPERATOR
+
+
+
+
+
+
+
+
+
+
+DATATYPES
+- int, float, double, boolean
+
+
+
+
+
+
+
+
+
+
+INT
+- if it takes 4 bytes then it takes 32 bits
+
+
+
+
+
+
+
+
+
+
+ON WHAT FACTORS DOES THE SIZE OF DATATYPES DEPEND IN C++
+
+
+
+
+
+
+
+
+
+
+NAMING RULES
+- names can contain alphabets, digits, underscore
+- can't start with digit
+
+
+
+
+
+
+
+
+
+
+CHAR
+- if it takes 1 byte, then it means it takes 8 bits
+- int is stored in 32 bits, char in 8bits, this is how int and char are differentiated
+- char datatype stores only one character
+
+
+
+
+
+
+
+
+
+
+FLOAT
+- if it takes 4 bytes, that means it takes 32 bits
+
+
+
+
+
+
+
+
+
+
+DOUBLE
+
+
+
+
+
+
+
+
+
+
+LONG INT
+- if it takes 8 bytes, that means it takes 64 bits
+
+
+
+
+
+
+
+
+
+BOOLEAN
+- stores either 0 or 1
+- can also store true or false
+- it takes 1 byte
+
+
+
+
+
+
+
+
+
+WE CAN DECLARE AND INITIALIZE MANY VARIABLES IN A SINGLE LINE
+
+
+
+
+
+
+
+
+
+
+STORING NEGATIVE INTEGERS
+- for storing -2
+  - 010 represents 2
+  - taking 1's compliment 101
+  - taking two's compliment 110
+  - so -2 is 110
+
+
+
+
+
+
+
+
+
+
+PRINTING NEGATIVE INTEGERS
+- printing 101 (binary representation of a negative number) (we have informed the compiler that we are using signed integer)
+  - take 1's compliment 010
+  - do 2's compliment 011
+  - 011 is 3
+  - putting - because MSB is 1
+  - -3
+- we done this method because MSB is 1
+- if MSB is 0 then we will directly convert that binary to int and print +intValue
+
+
+
+
+
+
+
+
+
+
+RANGE OF INT
+- (-2^32) to (2^32+1) 
+
+
+
+
+
+
+
+
+
+
+>> IS INSERTION OPERATOR
+
+
+
+
+
+
+
+
+
+
+TAKING INPUT FROM THE USER
+- using the cin>>a;
+- we can either use 'space' or 'enter' to separate two consecutive input values
+- cin>>a>>b;
+
+
+
+
+
+
+
+
+
+
+= IS ASSIGNMENT OPERATOR == is COMPARISON OPERATOR 
+
+
+
+
+
+
+
+
+
+
+STORING ASCII DECIMAL OF CHARACTERS IN INTEGER VARIALBES
+- char a = 'a'; cout<<int(a)<<endl;
+
+
+
+
+
+
+
+
+
+
+STORING INTEGER IN CHAR VARIABLE
+
+
+
+
+
+
+
+
+
+
+TYPECASTING
+- changing one datatype to another
+- if we try to typecast a variable with datatype that takes more space into a variable with datatype that takes less space, then data loss may occur
+- if we try to typecast a variable with datatype that takes less space into a variable with datatype that takes more space, then data loss won't occur
