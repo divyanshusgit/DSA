@@ -6,15 +6,6 @@
 //     cout<<"first program"<<endl;
 // };
 
-
-
-
-
-
-
-
-
-
 // #include <iostream>
 // using namespace std;
 // int main()
@@ -28,15 +19,6 @@
 //     return 0;
 // };
 
-
-
-
-
-
-
-
-
-
 // #include <iostream>
 // using namespace std;
 // int main()
@@ -47,16 +29,6 @@
 //     cout<<"the sum is "<<a+b<<endl;
 //     return 0;
 // };
-
-
-
-
-
-
-
-
-
-
 
 // STORING ASCII DECIMAL OF A CHARACTER IN INTEGER VARIABLE
 // SHOWCASING EXPLICIT TYPECASTING
@@ -75,17 +47,6 @@
 //     return 0;
 // };
 
-
-
-
-
-
-
-
-
-
-
-
 // STORING INTEGER INSIDE CHAR VARIABLE
 // SHOWCASING IMPLICIT TYPECASTING
 // #include <iostream>
@@ -96,16 +57,6 @@
 //     cout<<a<<endl;
 //     cout<<b<<endl;
 // } ;
-
-
-
-
-
-
-
-
-
-
 
 // TYPECASTING EXAMPLES
 // #include <iostream>
@@ -125,25 +76,16 @@
 //     // char c = 'b';
 //     // c = a;
 //     // cout<<c<<endl;
-//     // c stored the the character whose ascii decimal is 76 
+//     // c stored the the character whose ascii decimal is 76
 
 //     // example 3
 //     // int a = 212342333;
 //     // char c = 'b';
 //     // c = a;
 //     // cout<<c<<endl;
-//     // c stored the the character whose ascii decimal is 76 
+//     // c stored the the character whose ascii decimal is 76
 
 // };
-
-
-
-
-
-
-
-
-
 
 // IF ELSE CONDITIONALS
 // #include <iostream>
@@ -160,15 +102,6 @@
 //         cout<<"not placed"<<endl;
 //     };
 // };
-
-
-
-
-
-
-
-
-
 
 // CONSONANT OR VOWEL
 // #include<iostream>
@@ -187,22 +120,376 @@
 //     return 0;
 // };
 
-
-
-
-
-
-
-
-
-
 // FOR LOOP
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     for(int i = 1; i<=10; i++)
+//     {
+//         cout<<i<<endl;
+//     };
+//     return 0;
+// };
+
+// PRINT FROM a TO z
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     for(char i = 'A'; i<='Z'; i++)
+//     {
+//         cout<<i<<" ";
+//     };
+// };
+
+// PRINT A RAISED TO B
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int a;
+//     int b;
+//     cin>>a;
+//     cin>>b;
+//     int result = 1;
+//     for(int i = 1; i<=b; i++)
+//     {
+//         result*=a;
+//     };
+//     cout<<result<<endl;
+//     return 0;
+// };
+
+// FACTORIAL OF N
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cout << "Enter the value of n: ";
+//     cin >> n;
+//     int result = 1;
+//     if (n < 0)
+//     {
+//         cout << "Enter positive number" << endl;
+//     }
+//     else
+//     {
+//         if (n == 0)
+//         {
+//             result = 1;
+//         }
+//         for (int i = 1; i <= n; i++)
+//         {
+//             result *= i;
+//         };
+//         cout << result << endl;
+//     };
+// };
+
+
+
+
+
+
+
+
+
+
+
+// PRIME OR NOT
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter the value of n: ";
+//     cin>>n;
+//     if(n<0)
+//     {
+//         cout<<"Please enter a positive number"<<endl;
+//     }
+//     else if (n==0)
+//     {
+//         cout<<"composite"<<endl;
+//     }
+//     else if (n==1)
+//     {
+//         cout<<"neither prime not composite"<<endl;
+//     }
+//     else
+//     {
+//         bool prime = true;
+//         for(int i = 2; i<n; i++)
+//         {
+//             if(n%i==0)
+//             {
+//                 prime = false;
+//                 break;
+//             }
+//         };
+//         if(prime)
+//         {
+//             cout<<"prime"<<endl;
+//         }
+//         else
+//         {
+//             cout<<"composite"<<endl;
+//         };
+//     };
+//     return 0;
+// };
+
+
+
+
+
+
+
+
+
+
+// FIBONACCI SERIES
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter the value of n: ";
+//     cin>>n;
+//     if(n<=0)
+//     {
+//         cout<<"Enter a positive number"<<endl;
+//     }
+//     else if (n==1 | n==2)
+//     {
+//         cout<<1<<endl;
+//     }
+//     else
+//     {
+//         int a = 1;
+//         int b = 1;
+//         for(int i = 3; i<=n; i++)
+//         {
+//             int c = a + b;
+//             int temp = c;
+//             a = b;
+//             b = temp; 
+//             cout<<b<<" ";
+//         };
+//     };
+//     return 0;
+// };
+
+
+
+
+
+
+
+
+
+
+// PATTERN PRINTING
+
+// * * * * * 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n; 
+//     cout<<"Enter the value of n: ";
+//     cin>>n;
+//     for(int i = 1; i<=n; i++)
+//     {
+//         cout<<"* ";
+//     };
+//     return 0;
+// };
+
+//  * * * *
+//  * * * *
+//  * * * *
+//  * * * *
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter the value of n ";
+//     cin>>n;
+//     for(int i = 1; i<=n; i++)
+//     {
+//         for(int j = 1; j<=n; j++)
+//         {
+//             cout<<"* ";
+//         };
+//         cout<<endl;
+//     };
+//     return 0;
+// };
+
+// 1 1 1 1 
+// 2 2 2 2 
+// 3 3 3 3
+// 4 4 4 4
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter the value of n: ";
+//     cin>>n;
+//     for(int i = 1; i<=n; i++)
+//     {
+//         for(int j = 1; j<=n; j++)
+//         {
+//             cout<<i<<" ";
+//         };
+//         cout<<endl;
+//     };
+//     return 0;
+// };
+
+// 1 2 3 4 
+// 1 2 3 4 
+// 1 2 3 4 
+// 1 2 3 4 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter the value of n: ";
+//     cin>>n;
+//     for(int i = 1; i<=n; i++)
+//     {
+//         for(int j = 1; j<=n; j++)
+//         {
+//             cout<<j<<" ";
+//         };
+//         cout<<endl;
+//     };
+//     return 0;
+// };
+
+// 4 3 2 1
+// 4 3 2 1
+// 4 3 2 1
+// 4 3 2 1
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter the value of n: ";
+//     cin>>n;
+//     for(int i = 1; i<=n; i++)
+//     {
+//         for(int j = 1; j<=n; j++)
+//         {
+//             cout<<n-j+1<<" ";
+//         };
+//         cout<<endl;
+//     };
+//     return 0;
+// };
+
+// 1 4 9 16 25
+// 1 4 9 16 25
+// 1 4 9 16 25
+// 1 4 9 16 25
+// 1 4 9 16 25
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter the value of n: ";
+//     cin>>n;
+//     for(int i = 1; i<=n; i++)
+//     {
+//         for(int j = 1; j<=n; j++)
+//         {
+//             cout<<j*j<<" ";
+//         };
+//         cout<<endl;
+//     };
+//     return 0;
+// };
+
+// a a a a a
+// b b b b b
+// c c c c c
+// d d d d d
+// e e e e e
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter the value of n: ";
+//     cin>>n;
+//     for(int i = 1; i<=n; i++)
+//     {
+//         for(int j = 1; j<=n; j++)
+//         {
+//             cout<<char(97+i-1)<<" ";
+//         };
+//         cout<<endl;
+//     };
+//     return 0;
+// };
+// another way
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter the value of n: ";
+//     cin>>n;
+//     for(int i = 1; i<=n; i++)
+//     {
+//         for(int j = 1; j<=n; j++)
+//         {
+//             char pri = 'a'+i-1;
+//             cout<<pri<<" ";
+//         };
+//         cout<<endl;
+//     };
+//     return 0;
+// };
+
+// a b c d e
+// a b c d e
+// a b c d e
+// a b c d e
+// a b c d e
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter the value of n: ";
+//     cin>>n;
+//     for(int i = 1; i<=n; i++)
+//     {
+//         for(int j = 1; j<=n; j++)
+//         {
+//             char pri = 'a'+j-1;
+//             cout<<pri<<" ";
+//         };
+//         cout<<endl;
+//     };
+//     return 0;
+// };
+
+// 1 2 3
+// 4 5 6 
+// 7 8 9
 #include<iostream>
 using namespace std;
 int main(){
-    for(int i = 1; i<=10; i++)
+    int n;
+    cout<<"Enter the value of n: ";
+    cin>>n;
+    int count = 1;
+    for(int i = 1; i<=n; i++)
     {
-        cout<<i<<endl;
+        for(int j = 1; j<=n; j++)
+        {
+            cout<<count<<" ";
+            count++;
+        };
+        cout<<endl;
     };
     return 0;
 };
