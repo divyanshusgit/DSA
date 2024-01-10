@@ -333,3 +333,41 @@ TYPECASTING
 - changing one datatype to another
 - if we try to typecast a variable with datatype that takes more space into a variable with datatype that takes less space, then data loss may occur
 - if we try to typecast a variable with datatype that takes less space into a variable with datatype that takes more space, then data loss won't occur
+
+
+
+
+
+
+
+
+
+
+BINARY OPERATORS
++ - * / %
+
+UNARY OPERATORS
+post increment a++
+pre increment ++a
+post decrement a--
+pre decrement --a
+
+DOUBLE>FLOAT>INT (precision order)
+- 12.4 / 4 = 3.1
+- 8 / 4 = 2
+- 6 / 1.5 = 4
+- the result is returned in the datatype which has more precision 
+
+OPERATOR PRECEDENCE
+- {* / %} > {+ -}
+- from * / % the one appearing on the left will be calculated first
+- this is associativity 
+- operators having the same precedence are left to right associative
+
+COMPARISON OPERATORS PRECEDENCE
+- {> < >= <=} > {== !=}
+- if we two or more operators with the same precedence, then the operators occuring on the left will be computed first
+- associativity of comparison operators with the same precedence is from left to right
+
+LOGICAL OPERATORS
+- && || !

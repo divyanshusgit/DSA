@@ -186,16 +186,6 @@
 //     };
 // };
 
-
-
-
-
-
-
-
-
-
-
 // PRIME OR NOT
 // #include<iostream>
 // using namespace std;
@@ -238,15 +228,6 @@
 //     return 0;
 // };
 
-
-
-
-
-
-
-
-
-
 // FIBONACCI SERIES
 // #include<iostream>
 // using namespace std;
@@ -271,29 +252,20 @@
 //             int c = a + b;
 //             int temp = c;
 //             a = b;
-//             b = temp; 
+//             b = temp;
 //             cout<<b<<" ";
 //         };
 //     };
 //     return 0;
 // };
 
-
-
-
-
-
-
-
-
-
 // PATTERN PRINTING
 
-// * * * * * 
+// * * * * *
 // #include<iostream>
 // using namespace std;
 // int main(){
-//     int n; 
+//     int n;
 //     cout<<"Enter the value of n: ";
 //     cin>>n;
 //     for(int i = 1; i<=n; i++)
@@ -324,8 +296,8 @@
 //     return 0;
 // };
 
-// 1 1 1 1 
-// 2 2 2 2 
+// 1 1 1 1
+// 2 2 2 2
 // 3 3 3 3
 // 4 4 4 4
 // #include<iostream>
@@ -345,10 +317,10 @@
 //     return 0;
 // };
 
-// 1 2 3 4 
-// 1 2 3 4 
-// 1 2 3 4 
-// 1 2 3 4 
+// 1 2 3 4
+// 1 2 3 4
+// 1 2 3 4
+// 1 2 3 4
 // #include<iostream>
 // using namespace std;
 // int main(){
@@ -473,7 +445,7 @@
 // };
 
 // 1 2 3
-// 4 5 6 
+// 4 5 6
 // 7 8 9
 // #include<iostream>
 // using namespace std;
@@ -539,9 +511,9 @@
 // };
 
 // 1
-// 1 2 
-// 1 2 3 
-// 1 2 3 4 
+// 1 2
+// 1 2 3
+// 1 2 3 4
 // 1 2 3 4 5
 // #include<iostream>
 // using namespace std;
@@ -560,7 +532,7 @@
 //     return 0;
 // };
 
-// 1 2 3 4 5 
+// 1 2 3 4 5
 // 1 2 3 4
 // 1 2 3
 // 1 2
@@ -582,11 +554,11 @@
 //     return 0;
 // };
 
-// 1 
-// 2 2  
-// 3 3 3  
-// 4 4 4 4 
-// 5 5 5 5 5 
+// 1
+// 2 2
+// 3 3 3
+// 4 4 4 4
+// 5 5 5 5 5
 // #include<iostream>
 // using namespace std;
 // int main(){
@@ -604,11 +576,11 @@
 //     return 0;
 // };
 
-// 5 5 5 5 5 
-// 4 4 4 4 
-// 3 3 3  
-// 2 2  
-// 1 
+// 5 5 5 5 5
+// 4 4 4 4
+// 3 3 3
+// 2 2
+// 1
 // #include<iostream>
 // using namespace std;
 // int main(){
@@ -626,11 +598,11 @@
 //     return 0;
 // };
 
-// 1 
-// 2 1 
-// 3 2 1 
-// 4 3 2 1 
-// 5 4 3 2 1 
+// 1
+// 2 1
+// 3 2 1
+// 4 3 2 1
+// 5 4 3 2 1
 // #include<iostream>
 // using namespace std;
 // int main(){
@@ -648,11 +620,11 @@
 //     return 0;
 // };
 
-// 5 4 3 2 1 
-// 4 3 2 1 
-// 3 2 1 
-// 2 1 
-// 1 
+// 5 4 3 2 1
+// 4 3 2 1
+// 3 2 1
+// 2 1
+// 1
 // #include<iostream>
 // using namespace std;
 // int main(){
@@ -670,11 +642,11 @@
 //     return 0;
 // };
 
-// a 
-// b b 
-// c c c 
-// d d d d 
-// e e e e e 
+// a
+// b b
+// c c c
+// d d d d
+// e e e e e
 // #include<iostream>
 // using namespace std;
 // int main(){
@@ -692,11 +664,11 @@
 //     return 0;
 // };
 
-// e e e e e 
-// d d d d 
-// c c c 
-// b b 
-// a 
+// e e e e e
+// d d d d
+// c c c
+// b b
+// a
 // #include<iostream>
 // using namespace std;
 // int main(){
@@ -714,24 +686,431 @@
 //     return 0;
 // };
 
-// 5 
-// 5 4 
-// 5 4 3 
-// 5 4 3 2 
+// 5
+// 5 4
+// 5 4 3
+// 5 4 3 2
 // 5 4 3 2 1
-#include<iostream>
-using namespace std;
-int main(){
-    int n;
-    cout<<"Enter the value of n: ";
-    cin>>n;
-    for(int i = 1; i<=n; i++)
-    {
-        for(int j = n; j>=n-i+1; j--)
-        {
-            cout<<j<<" ";
-        };
-        cout<<endl;
-    };
-    return 0;
-};
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter the value of n: ";
+//     cin>>n;
+//     for(int i = 1; i<=n; i++)
+//     {
+//         for(int j = n; j>=n-i+1; j--)
+//         {
+//             cout<<j<<" ";
+//         };
+//         cout<<endl;
+//     };
+//     return 0;
+// };
+
+//         *
+//       * *
+//     * * *
+//   * * * *
+// * * * * *
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cout << "Enter the value of n: ";
+//     cin >> n;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1; j <= n - i; j++)
+//         {
+//             cout << "  ";
+//         };
+//         for (int k = 1; k <= i; k++)
+//         {
+//             cout << "* ";
+//         };
+//         cout << endl;
+//     };
+//         return 0;
+// };
+
+//         1 
+//       2 2  
+//     3 3 3  
+//   4 4 4 4  
+// 5 5 5 5 5  
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cout << "Enter the value of n: ";
+//     cin >> n;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1; j <= n - i; j++)
+//         {
+//             cout << "  ";
+//         };
+//         for (int k = 1; k <= i; k++)
+//         {
+//             cout <<i<<" ";
+//         };
+//         cout << endl;
+//     };
+//         return 0;
+// };
+
+//         1 
+//       1 2  
+//     1 2 3  
+//   1 2 3 4  
+// 1 2 3 4 5  
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cout << "Enter the value of n: ";
+//     cin >> n;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1; j <= n - i; j++)
+//         {
+//             cout << "  ";
+//         };
+//         for (int k = 1; k <= i; k++)
+//         {
+//             cout <<k<<" ";
+//         };
+//         cout << endl;
+//     };
+//         return 0;
+// };
+
+//         A
+//       A B
+//     A B C
+//   A B C D
+// A B C D E
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cout << "Enter the value of n: ";
+//     cin >> n;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1; j <= n - i; j++)
+//         {
+//             cout << "  ";
+//         };
+//         for (int k = 1; k <= i; k++)
+//         {
+//             cout <<char(k+64)<<" ";
+//         };
+//         cout << endl;
+//     };
+//         return 0;
+// };
+
+//         1 
+//       2 1 
+//     3 2 1 
+//   4 3 2 1 
+// 5 4 3 2 1 
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cout << "Enter the value of n: ";
+//     cin >> n;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1; j <= n - i; j++)
+//         {
+//             cout << "  ";
+//         };
+//         for (int k = i; k >= 1; k--)
+//         {
+//             cout <<k<<" ";
+//         };
+//         cout << endl;
+//     };
+//         return 0;
+// };
+
+//       * 
+//     * * * 
+//   * * * * * 
+// * * * * * * *
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter the value of n: ";
+//     cin>>n;
+//     for(int i = 1; i<=n; i++)
+//     {
+//         for(int b1 = 1; b1<=n-i; b1++)
+//         {
+//             cout<<"  ";
+//         };
+//         for(int s1 = 1; s1<=2*(i-1)+1; s1++)
+//         {
+//             cout<<"* ";
+//         };
+//         cout<<endl;
+//     };
+//     return 0;
+// };
+
+// * * * * * * *
+//   * * * * * 
+//     * * * 
+//       * 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter the value of n: ";
+//     cin>>n;
+//     for(int i = 1; i<=n; i++)
+//     {
+//         for(int b1 = 1; b1<=i-1; b1++)
+//         {
+//             cout<<"  ";
+//         };
+//         for(int s1 = 1; s1<=2*(n-i)+1; s1++)
+//         {
+//             cout<<"* ";
+//         };
+//         cout<<endl;
+//     };
+//     return 0;
+// };
+
+//       1 
+//     1 2 1  
+//   1 2 3 2 1  
+// 1 2 3 4 3 2 1  
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cout << "Enter the value of n: ";
+//     cin >> n;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1; j <= n - i; j++)
+//         {
+//             cout << "  ";
+//         };
+//         for (int k = 1; k <= i; k++)
+//         {
+//             cout <<k<<" ";
+//         };
+//         for(int l = i-1; l>=1; l--)
+//         {
+//             cout<<l<<" ";
+//         }
+//         cout << endl;
+//     };
+//         return 0;
+// };
+
+// 1 2 3 4 3 2 1
+//   1 2 3 2 1  
+//     1 2 1  
+//       1 
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cout << "Enter the value of n: ";
+//     cin >> n;
+//     for (int i = 1; i <= n; i++)
+//     {
+//         for (int j = 1; j <= i-1; j++)
+//         {
+//             cout << "  ";
+//         };
+//         for (int k = 1; k <= n-i+1; k++)
+//         {
+//             cout <<k<<" ";
+//         };
+//         for(int l = n-i; l>=1; l--)
+//         {
+//             cout<<l<<" ";
+//         }
+//         cout << endl;
+//     };
+//         return 0;
+// };
+
+// * * * * * * * *
+// * * *     * * *
+// * *         * *
+// *             *
+// *             *
+// * *         * *
+// * * *     * * *
+// * * * * * * * *
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter the value of n: ";
+//     cin>>n;
+//     for(int i = 1; i<=n; i++)
+//     {
+//         for(int s1 = 1; s1<=n-i+1; s1++)
+//         {
+//             cout<<"* ";
+//         };
+//         for(int g1 = 1; g1<=2*(i-1); g1++)
+//         {
+//             cout<<"  ";
+//         }
+//         for(int s2 = 1; s2<=n-i+1; s2++)
+//         {
+//             cout<<"* ";
+//         };
+//         cout<<endl;
+//     };
+//     for(int i = 1; i<=n; i++)
+//     {
+//         for(int s1 = 1; s1<=i; s1++)
+//         {
+//             cout<<"* ";
+//         };
+//         for(int g1 = 1; g1<=2*(n-i); g1++)
+//         {
+//             cout<<"  ";
+//         }
+//         for(int s2 = 1; s2<=i; s2++)
+//         {
+//             cout<<"* ";
+//         };
+//         cout<<endl;
+//     };
+//     return 0;
+// };
+
+// *             * 
+// * *         * * 
+// * * *     * * * 
+// * * * * * * * * 
+// * * *     * * * 
+// * *         * * 
+// *             * 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter the value of n: ";
+//     cin>>n;
+//     for(int i = 1; i<=n-1; i++)
+//     {
+//         for(int s1 = 1; s1<=i; s1++)
+//         {
+//             cout<<"* ";
+//         };
+//         for(int g1 = 1; g1<=2*(n-i); g1++)
+//         {
+//             cout<<"  ";
+//         };
+//         for(int s2 = 1; s2<=i; s2++)
+//         {
+//             cout<<"* ";
+//         };
+//         cout<<endl;
+//     };
+//     for(int i = 1; i<=2*n; i++)
+//     {
+//         cout<<"* ";
+//     };
+//     cout<<endl;
+//     for(int i = 1; i<=n-1; i++)
+//     {
+//         for(int s1 = 1; s1<=n-i; s1++)
+//         {
+//             cout<<"* ";
+//         };
+//         for(int g1 = 1; g1<=2*i; g1++)
+//         {
+//             cout<<"  ";
+//         };
+//         for(int s2 = 1; s2<=n-i; s2++)
+//         {
+//             cout<<"* ";
+//         };
+//         cout<<endl;
+//     };
+//     return 0;
+// };
+
+//    *  
+//   * *  
+//  * * *  
+// * * * * 
+// * * * * 
+//  * * *  
+//   * *  
+//    *  
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter the value of n: ";
+//     cin>>n;
+//     for(int i = 1; i<=n; i++)
+//     {
+//         for(int g1 = 1; g1<=n-i; g1++)
+//         {
+//             cout<<" ";
+//         };
+//         for(int s1 = 1; s1<=i; s1++)
+//         {
+//             cout<<"* ";
+//         };
+//         cout<<endl;
+//     };
+//     for(int i = n; i>=1; i--)
+//     {
+//         for(int g1 = 1; g1<=n-i; g1++)
+//         {
+//             cout<<" ";
+//         };
+//         for(int s1 = 1; s1<=i; s1++)
+//         {
+//             cout<<"* ";
+//         };
+//         cout<<endl;
+//     };
+//     return 0;
+// };
+
+// OPERATORS
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     cout<<6/1.5<<endl;
+//     return 0;
+// };
+
+// COMPARISION OPERATORS
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     // cout<<(5>4<3==2)<<endl;
+//     cout<<(3>4>5!=1)<<endl;
+//     return 0;
+// };
+
+// LOGICAL OPERATORS
